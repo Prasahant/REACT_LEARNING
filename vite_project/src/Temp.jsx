@@ -1,11 +1,15 @@
 
 function User() {
+  const name="Prashant Kumar Rjhans"
+  const age = "21"
+  const role = "Software Engineer"
+
   return (
     <>
-      <div>
-        <span>Prashant Kumar</span>
+      <div style={{color:"red",border:"2px solid black"}}>
+        <span>Hii, I am {name} and i am {age} year old and </span>
       </div>
-      <span>having chai</span>
+      <span>i am {role}</span>
     </>
   )
 }
